@@ -174,10 +174,11 @@ nav {
 /* TECH STACK */
 
 .language {
-    width: 25%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     position: relative;
+    border: 10px solid rgba(135, 206, 235, 0.6);
 }
 .language__img {
     width: 100%;
@@ -194,12 +195,15 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 25px 16px;
+    border: 10px solid rgba(135, 206, 235, 0.6);
+    border: 7px dotted darkslateblue;
 }
 .language__list {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
+    border: 7px solid darkviolet;
 
 }
 .language__name {
@@ -222,7 +226,7 @@ nav {
     border: 5px solid red;
 }
 .container {
-    border: 15px dotted orange;
+    border: 5px dotted orange;
 }
 .row {
     border: 10px dashed black;
