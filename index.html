@@ -19,21 +19,18 @@
           <li>
             <a
               href=""
-              class="nav__link--anchor link__hover-effect link__hover--effect--black"
-              >Languages</a
-            >
+              class="nav__link--anchor link__hover-effect link__hover--effect--black">Languages
+            </a>
           </li>
           <li>
             <a
               href=""
-              class="nav__link--anchor link__hover-effect link__hover--effect--black"
-              >Project</a
-            >
+              class="nav__link--anchor link__hover-effect link__hover--effect--black">Project
+            </a>
           </li>
           <li>
-            <a href="" class="nav__link--anchor nav__link--anchor-primary"
-              >Contact</a
-            >
+            <a href="" class="nav__link--anchor nav__link--anchor-primary">Contact
+            </a>
           </li>
         </ul>
       </nav>
@@ -44,9 +41,7 @@
       <div class="flex flex-1">
         <div class="about-me__info row">
           <div class="about-me__info--container">
-            <!-- 
-              <img src="./assets/Michele_headshot_black_top.png" alt="photo of me" class="about-me__picture">
-          -->
+
             <figure class="about-me__picture--mask">
               <img
                 src="./assets/photo_of_me.png"
@@ -61,7 +56,7 @@
             <p class="about-me__info--paragraph">
               I am a
               <strong class="text--purple">Frontend Developer</strong> with
-              additional skills in Excel, SAS, SQL, and Python.
+              additional Data Analyst skills in Excel, SAS, SQL, and Python.
             </p>
             <!-- <div class="testing">
               <a href="http://www.google.com">
@@ -70,25 +65,29 @@
             </div> -->
             <div class="about-me__links">
               <a href="./linkedin.html" class="about-me__link">
-                <img src="./assets/icon_linked_in.png" />
+                <img src="./assets/icon_linked_in.png" 
+                class="icon_png" />
                 <!-- <i class="fab fa-linkedin-in"></i> -->
               </a>
               <a href="./github.html" class="about-me__link">
-                <img src="./assets/icon_github.png" />
+                <img src="./assets/icon_github.png" 
+                class="icon_png" />
                 <!-- <i class="fab fa-github"></i> -->
               </a>
               <a href="email.html" class="about-me__link">
-                <img src="./assets/icon_email.png" />
+                <img src="./assets/icon_email.png" class="icon_png"/>
                 <!-- <i class="far fa-envelope"></i> -->
               </a>
               <a href="resume.html" class="about-me__link">
-                <img src="./assets/icon_resume.png" />
+                <img src="./assets/icon_resume.png" 
+                class="icon_png" />
                 <!-- <i class="fas fa-file-pdf"></i> -->
               </a>
             </div>
-            <!-- <img src="./assets/icons_no_margins.PNG" alt="icons" /> -->
+
             <figure class="about-me__img--container">
-              <img src="./assets/undraw_websites.svg" 
+              <!-- <img src="./assets/undraw_websites.svg"  -->
+              <img src="./assets/lavender_designer_gal.png"
               class="about-me__img" 
               alt="vector image web developers" 
               />
@@ -100,11 +99,11 @@
     <!-- 
     LANGUAGES SECTION
     -->
-    <section id="languages"> ---section languages---
-      <div class="container"> ---div container---
-        <div class="row"> ---div row---
-          <h1 class="section__title">This is my <span class="text--purple">technology stack</span>
-            </div> ---section__title---
+    <section id="languages">
+      <div class="container"> 
+        <div class="row languages__row"> 
+          <h1 class="section__title language__section__title" >This is my <span class="text--purple">technology stack</span>
+            </div> 
           </h1>
           <div class="language__list"> 
 
@@ -154,35 +153,139 @@
               <span class="language__name">React</span>
             </div>
 
+                     <!-- PYTHON-->
+                     <div class="language">
+                      <figure class="language__img--wrapper">
+                        <img src="./assets/Python-badge.png" alt="Python Logo"
+                          class="language__img" />
+                      </figure>
+                      <span class="language__name">Python</span>
+                    </div>
+           
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- PROJECTS -->
-    <section id="projects">...section id projects...
-      <div class="container">...div class container...
-        <div class="row">...div class row...
-          <h1 class="section__title">
-            Here are some of my <span class="purple">
-              projects:</span>
-          </h1> ...end of h1 class section__title...
-          <ul class="project__list">...ul class project__list...
-            <li class="project">...li class project...
-              <div class="project__wrapper">
-                <img src="./assets/loopit.png" class="project__img" alt="Car subscription project"> 
-                <!-- <img src="./assets/loopit.png" 
-                class="project__img"  
-                alt="car subscription project" /> ...above img class project__img... -->
-                <!-- end of project__wrapper -->
-              </div>
-            </li>
-          </ul>
-          <!-- end row-->
+    <!-- PROJECTs -->
+    <section class="projects">
+      <div class="container project1__container"> 
+        <h1 class="section__title">
+          Here are some of my <span class="purple">
+            projects:</span>
+        </h1> 
+
+         <!-- PROJECT 1 -->
+        <div class="row project__row">
+          
+          <div class="project__wrapper">
+            <img src="./assets/beauty.png" class="project__img" alt="hand in water with flower representing beauty" /> 
+          </div>
+
+          <div class="project__description">
+            <h2 class="project__description--title">
+              <span>Creative Design Agency Site</span>
+            </h2>
+            <h3 class="project__description--sub-title">
+                    First project using HTML, CSS, and Flexbox
+            </h3>
+            <p class="project__description--para">
+                    In this project, I devised a very simple one page site using skills I just learned in HTML, CSS, Flexbox, and Responsive Web Design.
+            </p>
+          </div>
+
+          <div class="project__description--links">
+              <a class="project__description--link"
+                  href="https://github.com/jazzminjoy/WebDevSiteUsingFlex">
+                  <img src="./assets/icon_github.png" 
+                  class="icon_png"/>
+              </a>
+              <a class="project__description--link"
+                  href="https://jazzminjoy.github.io/WebDevSiteUsingFlex/">
+                  <img src="./assets/icon_link.png" 
+                  class="icon_png"/>
+              </a>
+          </div>
         </div>
-        <!-- end container -->
       </div>
     </section>
+
+     <!-- PROJECT 2 -->
+     <section class="projects">
+      <div class="container project2__container">
+        <div class="row project__row">
+          
+          <div class="project__wrapper project2-wrapper">
+            <img src="./assets/laptop.png" class="project__img" alt="laptop" /> 
+          </div>
+
+          <div class="project__description">
+            <h2 class="project__description--title">
+              <span>Mock Front End Simplified Site</span>
+            </h2>
+            <h3 class="project__description--sub-title">
+              Copy a website and make changes using HTML, CSS, Flexbox and Responsive Design.
+            </h3>
+            <p class="project__description--para">
+              This project is the creation of a Frontend Simplified (FES) mock website. I am in the FES online bootcamp. The mock site uses HTML5, CSS, Flexbox, and Media Queries. I deleted the Discord section given in the online classroom example, and added a Community section, a Staff Message Board section, and a More Info section. I added images made from FES sites using the Snipping Tool. I added a Top anchor tag and background colors for the added sections. I changed all the background colors. I deleted the Latin filler text and wrote valid information. All images have the alt tag.
+            </p>
+          </div>
+
+          <div class="project__description--links">
+            <a class="project__description--link"
+                href="https://github.com/jazzminjoy/FES_Mock_Site">
+                  <img src="./assets/icon_github.png" 
+                  class="icon_png"/>
+            </a>
+            <a class="project__description--link"
+              href="https://jazzminjoy.github.io/FES_Mock_Site/">
+                <img src="./assets/icon_link.png" 
+                class="icon_png"/>
+           </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT 3 -->
+    <section class="projects">
+      <div class="container project3__container">
+        <div class="row project__row">
+          
+          <div class="project__wrapper project2-wrapper">
+            <img src="./assets/loopit.png" class="project__img" alt="laptop" /> 
+          </div>
+
+          <div class="project__description">
+            <h2 class="project__description--title">
+              <span>Place Holder</span>
+            </h2>
+            <h3 class="project__description--sub-title">
+              Copy a sophisticated car subscription and rental site.
+            </h3>
+            <p class="project__description--para">
+              I have not done this project. This is just a placeholder. 
+              It is an advanced site. I have not yet learned React, Vue, or Vuex and/or the other tech needed to copy it.
+            </p>
+          </div>
+
+          <div class="project__description--links">
+              <a class="project__description--link"
+                  href="https://www.loopit.co/en-us">
+                  <img src="./assets/icon_github.png"
+                  class="icon_png" />
+              </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+     <footer>
+      <div class="row">
+        <a href="#">top</a>
+      </div>
+     </footer>
   </body>
 </html>
