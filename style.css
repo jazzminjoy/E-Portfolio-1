@@ -8,6 +8,7 @@
       padding: 0;
       margin: 0;
       box-sizing: border-box;
+      /* outline: 2px dashed purple; */
     }
 
 h1, h2, h3, h4, h5, h6, span {
